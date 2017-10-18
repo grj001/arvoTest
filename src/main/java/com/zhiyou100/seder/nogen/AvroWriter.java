@@ -49,7 +49,7 @@ public class AvroWriter {
 	
 	public static void main(String[] args) throws Exception {
 		
-		//用模式文件文件位置作为chushihuawriter序列化类
+		//用模式文件文件位置作为初始化writer序列化类
 		AvroWriter avroWriter = 
 				new AvroWriter("src/main/avro/user_action_log.avsc");
 		
@@ -66,60 +66,5 @@ public class AvroWriter {
 		avroWriter.writeData(record);
 	}
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 }
